@@ -1,0 +1,16 @@
+[project]
+name = "tick-rollup"
+version = "1.0.0"
+description = "Deterministic roll-up of a trade/tick CSV into OHLCV bars, session by session"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+tick-rollup = "rollup.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["rollup"]
