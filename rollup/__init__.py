@@ -5,7 +5,16 @@ the file you point it at.
 """
 
 from .bars import Bar
+from .engine import LateMode, RollupEngine, Stats
 from .sessions import DEFAULT_SESSIONS, SessionSpec
 
 __version__ = "1.0.0"
-__all__ = ["Bar", "SessionSpec", "DEFAULT_SESSIONS", "__version__"]
+__all__ = [
+    "Bar",
+    "LateMode",
+    "RollupEngine",
+    "Stats",
+    "SessionSpec",
+    "DEFAULT_SESSIONS",
+    "__version__",
+]
